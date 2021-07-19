@@ -1,0 +1,18 @@
+1. GuardDuty findings 
+
+UnauthorizedAccess:EC2/SSHBruteForce
+
+Attack instance attacks the webserver instance using SSH brute force and hence gaining access by guessing passwords. 
+
+2.AWS Guard Duty documentation regarding how it might have detected the attack
+
+GuardDuty monitors traffic on certain specific ports such as port 22.
+If SSH services are configured to use other ports, it will not be detected by Guard Duty.
+
+
+From Guard Duty documentation:
+
+"Amazon GuardDuty is a continuous security monitoring service that analyzes and processes the
+following data sources: VPC Flow Logs, AWS CloudTrail event logs, and DNS logs"
+
+In this instance , VPC Flow Logs would be the source to show the attack attempts.

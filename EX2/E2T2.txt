@@ -1,0 +1,15 @@
+security groups to be changed not to allow ingress from 0.0.0.0/0 to port 22 and port 3389 so unrestricted access to be changed to restricted
+UDP/TELNET port 23 is reachable from the internet - should change it and remove access
+S3 objects to have encryption enabled
+TCP port 23 is reachable from the internet - to be changed like above
+UDP/FTP port 21 is reachable from the internet - to be changed like above
+TCP/FTP port 21 is reachable from the internet - to be changed like above
+VPC flow logging is enabled in all VPCs
+TCP/FTP port 20 is reachable from the internet - to be changed like above
+UDP/FTP port 20 is reachable from the internet - to be changed like above
+
+
+Additional recommendations
+
+Provide specific IP address range for security groups ingress on port 22
+Encrypt volumes attached to all instances

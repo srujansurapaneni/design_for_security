@@ -1,0 +1,21 @@
+
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+
+checkov: https://www.checkov.io/1.Welcome/Quick%20Start.html
+
+### Example vulnerability
+checkov : Ingress open to 0.0.0.0/0
+
+##Scan AMI’s or containers for OS vulnerabilities
+clair: https://github.com/quay/clair.git
+
+### Example vulnerability
+No major vulnerability issues found
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWStealth: https://github.com/cyberark/SkyArk/tree/master/AWStealth
+
+### Example vulnerability
+no MFA 

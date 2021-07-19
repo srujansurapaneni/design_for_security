@@ -1,0 +1,10 @@
+# changes to prevent an ssh brute force attack from the internet.
+
+1. Use/Set strong passwords
+2. Change permissions/settings in security group to not allow incoming requests from the internet
+3. SSH settings change on instance to disable password authentication
+
+
+# Changes to prevent access to sensitive data.
+
+Policy changes in S3 role to only allow access to free_recipe bucket alone and hence disallowing the role to have access to secret recipes bucket and it's files

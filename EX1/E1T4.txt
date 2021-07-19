@@ -1,0 +1,9 @@
+
+Poor practice 1
+---------------
+In the VPC configuration, the route configurations have DestinationCidrBlock as 0.0.0.0/0.
+This could mean that the hacker can send the data to any ip address of choice, inside or outside the VPC.
+
+Poor practice 2
+---------------
+The web application is configured to be deployed into the public instance which is internet facing. It should have rather been deployed to a private instance to protect it from the attack.
