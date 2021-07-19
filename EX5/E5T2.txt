@@ -1,4 +1,3 @@
-
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
